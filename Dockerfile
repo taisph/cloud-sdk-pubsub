@@ -3,7 +3,7 @@ FROM google/cloud-sdk:slim
 RUN apt-get install -y \
     google-cloud-sdk-pubsub-emulator \
     openjdk-11-jre-headless \
-  && rm -rf /var/lib/apt/lists/* \
+  && rm -rf /var/lib/apt/lists/*
 
 RUN pip3 install --no-cache-dir --upgrade google-cloud-pubsub
 
