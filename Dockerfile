@@ -1,4 +1,4 @@
-FROM google/cloud-sdk:slim
+FROM google/cloud-sdk:395.0.0-slim@sha256:c92c5e829caea1505a9e43ec0a4c59007c8a3bdab64a6b2f712bb2c761880b15
 
 RUN apt-get install -y \
     google-cloud-sdk-pubsub-emulator \
